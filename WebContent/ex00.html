@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Insert title here</title>
+</head>
+<body>
+	
+
+<script type="text/javascript">
+for(var i=2; i<10; i++) {
+	for(var j=1; j<10; j++)
+		document.write(i+" * "+ j+ " = "+ i*j+" ")		
+	document.write("<br>")	
+}
+</script>
+	<script type="text/javascript">
+		function company() {
+			console.log("기명함수 실행");
+		}; //세미콜론 붙는 것 기억
+		company();
+	</script>
+
+	<script type="text/javascript">
+		var array = [ 273, "String", true, function() {
+		}, {}, [ 273, 103 ] ]; //{} 이것은 객체
+		console.log(array);
+		alert(array);
+		console.log(array[1]); //콘솔에 나옴.
+		alert(array[1]); //팝업에 나옴.
+		console.log(array[4]);
+		alert(array[4]);
+	</script>
+
+	<script type="text/javascript">
+		/* 
+		var guestbookVo = {}; 객체 정의
+		guestbookVo.no=3;
+		
+		console.log(guestbookVo.no);
+		 */
+		var guestbookVo = { //객체 정의와 값 입력 동시
+			no : 1,
+			name : "황일영",
+			password : "1234",
+			content : "안녕하세요 첫번째 방문"
+		};
+		
+		console.log(guestbookVo.content);
+	</script>
+</body>
+
+<script type="text/javascript">
+	document.write("body이후");
+</script>
+
+</body>
+	
+	
+
+
+</html>
