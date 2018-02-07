@@ -21,10 +21,16 @@
 	<p> 텍스트4 텍스트4 텍스트4 텍스트4 텍스트4 </p>
 
 </body>
-
-<script type="text/javascript">
+<script type=text/javascript>
+	var obj=$("li"); //li 4개 모두 선택됨. 여기서 selector는 li
+	console.log(obj);
+	
+	$("li").css("color","red"); //선택된 4개의 li 모두 red로 바뀜
+	$("p").css("color","blue"); //선택된 4개의 p 모두 blue로 바뀜
+</script>
+<!-- <script type="text/javascript">
 $("li").css("color","red");
 $("p").css("color","blue");
-</script>
+</script> -->
 
 </html>
